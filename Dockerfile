@@ -1,6 +1,6 @@
-FROM ruby:2.7.4
+FROM ruby:3.2.2
 
-RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - \
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
     && apt-get update -qq \
     && apt-get install -y nodejs \
     && npm install -g yarn
