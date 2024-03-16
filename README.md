@@ -1,12 +1,12 @@
 # Rails API
 
 - Ruby 3.2.2
-- Rails 6.1.6
+- Rails 7.0.0
 - MySQL 8.0
 
 ## M1 Mac のみ設定
 
-docker-compose.yml に追記
+compose.yml に追記
 
 ```bash
 db:
