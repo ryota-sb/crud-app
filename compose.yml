@@ -23,3 +23,5 @@ services:
 volumes:
   bundle:
     driver: local
+  db:
+    driver: local
