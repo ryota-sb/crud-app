@@ -20,3 +20,6 @@ services:
       MYSQL_ROOT_PASSWORD: password
     ports:
       - "3306:3306"
+volumes:
+  bundle:
+    driver: local
