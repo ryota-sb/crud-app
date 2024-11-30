@@ -34,3 +34,5 @@
 /config/master.key
 
 /docker/mysql/data
+/app/assets/builds/*
+!/app/assets/builds/.keep
